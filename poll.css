@@ -1,0 +1,85 @@
+body {
+    background-color: #D7E4C0;
+}
+
+.container {
+    background-color: #C6DCBA;
+    border: 1px solid #BBC3A4;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    left: 170px;
+    top: 60px;
+    border-radius: 10px;
+}
+
+.left {
+    border-right: 1px solid #B3A398;
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+.left pre {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.left .option {
+    position: relative;
+    top: 80px;
+    left: 150px;
+    font-size: x-large;
+    font-family: monospace;
+}
+
+button {
+    position: absolute;
+    bottom: -80px;
+    left: 60px;
+    background-color: #D7E4C0;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #B3A398;
+    cursor: pointer;
+}
+
+.right .box {
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    position: relative;
+    left: 100px;
+    top: 48px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .box span {
+    position: relative;
+}
+
+
+.right label {
+    position: absolute;
+    left: 700px;
+    justify-content: center;
+}
+
+.right .max {
+    position: relative;
+    top: -100px;
+    left: 630px;
+    width: 400px;
+    background-color: transparent;
+}

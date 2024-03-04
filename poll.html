@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Poll App</title>
+    <link rel="stylesheet" href="./poll.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <pre>
+What is your favorite programming 
+language?
+        </pre>
+        <div class="option">
+          <input type="radio" id="python" name="option" value="python" /><label
+            for="python"
+            >Python</label
+          ><br />
+          <input type="radio" id="java" name="option" value="java" /><label
+            for="java"
+            >Java</label
+          ><br />
+          <input type="radio" id="cpp" name="option" value="cpp" /><label
+            for="cpp"
+            >C++</label
+          ><br />
+          <input
+            type="radio"
+            id="javascript"
+            name="option"
+            value="javascript"
+          /><label for="javascript">JavaScript</label><br />
+          <input
+            type="radio"
+            id="others"
+            name="option"
+            value="others"
+          /><label for="others">Others</label>
+          <button type="submit" class="submit">Submit</button>
+        </div>
+      </div>
+      <div class="right">
+        <div class="box python"><span>0</span></div>
+        <label for="python">Python</label>
+        <div class="box java"><span>0</span></div>
+        <label for="java">Java</label>
+        <div class="box cpp"><span>0</span></div>
+        <label for="cpp">C++</label>
+        <div class="box javascript"><span>0</span></div>
+        <label for="javascript">JavaScript</label>
+        <div class="box others"><span>0</span></div>
+        <label for="others">Others</label>
+        <div class="max">
+          <p>Maximum vote:</p>
+          <p style="font-weight: bolder" class="maxNum">-</p>
+        </div>
+      </div>
+    </div>
+    <script src="./poll.js"></script>
+  </body>
+</html>
